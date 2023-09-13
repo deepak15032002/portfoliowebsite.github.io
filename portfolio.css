@@ -1,0 +1,512 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.homebody{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(157, 48, 179);
+}
+
+.headerdiv{
+    padding-right: 8%;
+    /* position: fixed; */
+}
+
+.logodiv{
+    float: left;
+    width: 35%;
+    background-color: white;    
+    position: relative;            
+    height: 74px;
+}
+
+.spacing{
+    width: 35%;
+    height: 100px;
+    float: left;
+}
+
+.logo{
+    width: 26%;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu{
+    padding-top: 15px;
+    position: relative;
+    text-align: right;
+    width: 56%;
+    height: 59px;
+    transition: 0.2s;
+    display: inline-block;
+}
+
+
+.menu ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.menu ul li a{
+    color:  white;
+    font-family: Mosk,sans-serif;
+    text-decoration: none;
+    font-size: x-large;
+    transition: 0.2s;    
+}
+
+.menu ul li a:hover{
+    /* background: linear-gradient(to bottom, pink, pink, blue); */
+    /* -webkit-background-clip: text; */
+    /* color: transparent; */
+    font-size: 40px;
+}
+
+.modebtndiv{
+    padding-top: 15px;
+    float: right;
+    width: 9%;
+    transition: 0.2s;
+}
+
+.modebtn{
+    width: 48%;
+    display: inline;
+    float: right;
+    padding-right: 50px;
+    transition: 0.2s;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    /* top: -20px; */
+}   
+
+.modebtn:hover{
+    width: 55%;
+}
+
+.light{
+    display: none;
+    opacity: 0;
+    /* padding-left: 5px; */
+    width: 100%;
+    position: relative;
+    top: -41px;
+    left: -3px;
+    /* height: 600px; */
+    animation: blink 2s linear forwards;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 0%;
+    }
+    20%{
+        opacity: 20%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.homemain{
+    width: 100%;
+    height: 91vh;
+}
+
+/* #homepage{
+    transition: 0.2s;
+} */
+
+.homelft{
+    width: 494px;
+    background-color: white;
+    height: 91vh;
+    float: left;
+    /* position: relative; */
+}
+
+.computer{
+    width: 100%;
+    position: relative;
+    left: 40%;
+    top: 40%;
+}
+
+
+.homergt{
+    width: 65%;
+    height: 90vh;
+    float: right;
+}
+
+.homergt p{
+    font-size: x-large;
+    font-family: cursive;
+    /* color: white; */
+    color: white;
+}
+
+.homergt h1{
+    color: white;
+    font-size: 70px;
+    width: 70%;
+    float: right;
+    margin-right: 60px;
+    /* position: ; */
+}
+
+.fun{
+    background: linear-gradient(to bottom ,pink, pink, blue);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* About page is start from here */
+
+.aboutbody{
+    width: 100%; 
+    height: 100vh;
+    margin: 0;
+    background-color: green;
+}
+
+.logodiv2{
+    float: left;
+    width: 35%;
+    background-color: green;
+ 
+    position: relative;            
+    height: 74px;
+}
+
+.aboutmain{
+    width: 100%;
+    height: 89vh;
+}
+
+.aboutlft{
+    width: 20%;
+    height: 89vh;
+    /* height: 100vh; */
+    float: left;
+}
+
+.light2{
+    display: none;
+    opacity: 0;
+    /* padding-left: 5px; */
+    width: 100%;
+    position: relative;
+    top: -41px;
+    left: -3px;
+    /* height: 600px; */
+    animation: blink 2s linear forwards;
+}
+
+.imgframe{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    left: 80px;
+    top: 90px;
+    border-radius: 1cm;
+    background-color: white;
+    /* background-color: rgb(81, 43, 49); */
+}
+
+.mySlides{
+    width: 90%;
+    height: 65vh;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    border-radius: 1cm;
+    display: none;
+    /* opacity: 50%; */
+}
+
+.aboutrgt{
+    width: 80%;
+    height: 89vh;
+    float: right;
+    /* background-color: blue; */
+}
+
+.aboutrgt p{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-right: 50px;
+    font-size: 40px;
+    color: white;
+    /* background-color: purple; */
+}
+
+.resumebody{
+    width: 100%; 
+    height: 181vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(239, 39, 239);
+    /* background-color: ; */
+}
+
+.logodiv3{
+    float: left;
+    width: 35%;
+    background-color: rgb(239, 39, 239);
+    position: relative;            
+    height: 74px;
+}
+
+.resumergt{
+    width: 100%;
+    height: 170vh;
+    float: right;
+}
+
+.rgt1{
+    width: 30%;
+    height: 141.5vh;
+    float: left;
+    padding-top: 200px;
+}
+
+/* .rgt1 img{ */
+    /* position: relative; */
+    /* top: -50px; */
+/* } */
+
+.resumemid{
+    width: 49.6%;
+    height: 162.5vh;
+    margin-top: 45px;
+    display: inline-block;
+    /* background-color: black; */
+    border:solid;
+    border-color: black;
+}
+
+.resumehed{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-bottom: solid;
+    border-color: black;
+}
+
+.resumehed h1{
+    /* color: white; */
+    font-size: 50px;
+}
+
+.rgt2{
+    width: 20%;
+    height: inherit;
+    float: right;
+}
+
+
+
+.top{
+    width: 100%;
+    height: 100px;
+}
+.lfttop{
+    width: 381.5px;
+    height: 100px;
+    float: left;
+    /* color: white; */
+    border-bottom: solid;
+    border-color: black;
+    border-right: solid;
+    text-align: left;
+    /* border-color: black; */
+}
+
+.lfttop h1{
+    font-size:40px;
+    /* color: white; */
+    margin: 0;
+    /* padding-top: 20px; */
+}
+
+.lfttop span{
+    font-size: 22px;
+    /* color: white; */
+}
+
+.rgttop{ 
+    width: 49.6%;
+    height: 100px;
+    float: right;
+    text-align: right;
+    border-bottom: solid;
+    border-color: black;
+    /* padding-right: 5px; */
+}
+
+.gmail img{
+    width: 22px;
+    float: right;
+}
+
+.gmail{
+    color: black;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: medium;
+}
+
+.phone{
+    color: black;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: medium;
+    padding-left: 224px;
+}
+
+.phone img{
+    width: 22px;
+    float: right;
+}
+
+.place{
+    color: black;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: medium;
+    /* padding-left: 224px; */
+}
+
+.place img{
+    width: 22px;
+    float: right;
+}
+
+.intro{
+    width: 100%;
+    height: 90px;
+    padding-top: 20px;
+    border-bottom: solid;
+}
+
+.intro span{
+    font-size: 21px;
+    /* color: white; */
+}
+
+.mainintro{
+    width: 100%;
+    height: 113vh;
+}
+
+.mainintrolft{
+    width: 49%;
+    float: left;
+}
+
+.mainintrorgt{
+    width: 50%;
+    float: right;
+}
+
+.contactbody{
+    width: 100%;
+    height: 100vh;
+    background-color: darkorchid;   
+}
+
+.logodiv4{
+    float: left;
+    width: 35%;
+    background-color: darkorchid;
+    position: relative;            
+    height: 74px;   
+}
+
+.handle{
+    width: 70%;
+    margin-left: 15%;
+    height: 40vh;
+    /* margin-top: 15vh; */
+    border-radius: 3cm;
+    background-color: white;
+}
+
+.spacing3{
+    width: 100%;
+    height: 20vh;
+}
+
+.phonenumber{
+    width: 25%;
+    height: 40vh;
+    float: left;
+    border-top-left-radius: 3cm;
+    border-bottom-left-radius: 3cm;
+    /* background-color: ; */
+    /* padding: 20px; */
+}
+
+.phonenumber a img{
+    width: 100px;
+    position: relative;
+    top: 90px;
+    left: 90px;
+}
+
+.instagram{
+    width: 25%;
+    height: 40vh;
+    display: inline-block;
+}
+
+.instagram a img{
+    width: 100px;
+    position: relative;
+    top: 90px;
+    left: 90px;
+}
+
+.Linkdin{
+    width: 25%;
+    height: 40vh;
+    /* float: right; */
+    display: inline-block;
+}
+
+.Linkdin a img{
+    width: 100px;
+    position: relative;
+    top: 90px;
+    left: 90px;
+}
+
+
+.gmailid{
+    width: 24.6%;
+    height: 40vh;
+    border-top-right-radius: 3cm;
+    border-bottom-right-radius: 3cm;
+    /* display: inline-block; */
+    float: right;
+}
+
+.gmailid a img{
+    width: 100px;
+    position: relative;
+    top: 90px;
+    left: 90px;
+}
+
